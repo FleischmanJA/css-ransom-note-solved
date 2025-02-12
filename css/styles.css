@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
 
 * {
   padding: 0;
@@ -12,6 +15,58 @@ body,
 html {
   width: 100%;
   min-height: 100%;
+}
+
+:root {
+  /* 10 Font Size Variables */
+  --fontSize-1: 22px;
+  --fontSize-2: 32px;
+  --fontSize-3: 60px;
+  --fontSize-4: 18px;
+  --fontSize-5: 39px;
+  --fontSize-6: 72px;
+  --fontSize-7: 44px;
+  --fontSize-8: 56px;
+  --fontSize-9: 20px;
+  --fontSize-10: 30px;
+
+  /* 4 Font-weight Variables*/
+  --weightBold-1: bold;
+  --weightNormal-2: normal;
+  --weight400-3: 400;
+  --weight700-4: 700;
+
+  /* 10 Color Variables */
+  --color-1: #fff;
+  --color-2: hsl(0, 57%, 55%);
+  --color-3: #0fa328;
+  --color-4: rgb(52, 85, 194);
+  --color-5: #0f0f0f;
+  --color-6: hsl(281, 65%, 25%);
+  --color-7: rgb(202, 65, 179);
+  --color-8: #1c88b3;
+  --color-9: hsl(340, 69%, 39%);
+  --color-10: #8aac12;
+
+  /* 4 Text Decoration Variables */
+  --decorationUnderline: underline;
+  --decorationLine-Through: line-through;
+  --decorationOverline: overline;
+  --decorationNone: none;
+
+  /* 4 Text Transform Variables */
+  --textTransCap: capitalize;
+  --textTransLower: lowercase;
+  --textTransNone: none;
+  --textTransUpper: uppercase;
+
+  /* Font Family Variables */
+  --fontFam-1: "Piazolla", sans-serif;
+  --fontFam-2: "Ceviche One", sans-serif;
+  --fontFam-3: "Raleway Dots", sans-serif;
+  --fontFam-4: "Orbitron", serif;
+  --fontFam-5: "Michroma", serif;
+  --fontFam-6: "Coming Soon", serif;
 }
 
 body {
@@ -59,7 +114,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +123,7 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
@@ -77,228 +132,189 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
-/* DID word */
+/* Words Optimised by Julius Fleischman Below using Created Variables */
 
-.didDLetter {
-}
+/* 1. */
 
-.didILetter {
-}
-
-.didDTwoLetter {
-}
-
-/* THE word */
-
-.theTLetter {
-}
-
-.theHLetter {
-}
-
-.theELetter {
-}
-
-/* FRONT-END word */
-
-.frontendFLetter {
-}
-
-.frontendRLetter {
-}
-
-.frontendOLetter {
-}
-
-.frontendNLetter {
-}
-
-.frontendTLetter {
-}
-
-.frontendELetter {
-}
-
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
-}
-
-/* DEVELOPER word */
-
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
-
-/* THEY word */
-
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
-
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
-}
-
-/* SYMBOLS */
-
-.hyphen {
-}
+.didDLetter,
+.frontendTLetter,
+.developerPLetter,
+.gardeningALetter,
+.becauseCLetter,
+.wantedALetter,
+.improveRLetter,
+.rootOLetter,
 .exclamation-mark {
+  font-size: var(--fontSize-1);
+  font-weight: var(--weightBold-1);
+  color: var(--color-1);
+  text-decoration: var(--decorationLine-Through);
+  text-transform: var(--textTransCap);
+  font-family: var(--fontFam-1);
 }
+
+/* 2. */
+
+.didILetter,
+.frontendELetter,
+.developerEThreeLetter,
+.gardeningRLetter,
+.becauseALetter,
+.wantedNLetter,
+.improveOLetter,
+.rootOTwoLetter,
 .question-mark {
+  font-size: var(--fontSize-2);
+  font-weight: var(--weightNormal-2);
+  color: var(--color-2);
+  text-decoration: var(--decorationOverline);
+  text-transform: var(--textTransNone);
+  font-family: var(--fontFam-2);
+}
+
+/* 3. */
+
+.didDTwoLetter,
+.frontendNTwoLetter,
+.developerRLetter,
+.gardeningDLetter,
+.becauseULetter,
+.wantedTLetter,
+.improveVLetter,
+.rootTLetter {
+  font-size: var(--fontSize-3);
+  font-weight: var(--weight400-3);
+  color: var(--color-3);
+  text-decoration: var(--decorationUnderline);
+  text-transform: var(--textTransLower);
+  font-family: var(--fontFam-3);
+}
+
+/* 4. */
+
+.theTLetter,
+.frontendDLetter,
+.takeTLetter,
+.gardeningELetter,
+.becauseSLetter,
+.wantedELetter,
+.improveELetter,
+.skillsSLetter {
+  font-size: var(--fontSize-4);
+  font-weight: var(--weight700-4);
+  color: var(--color-4);
+  text-decoration: var(--decorationNone);
+  text-transform: var(--textTransUpper);
+  font-family: var(--fontFam-4);
+}
+
+/* 5. */
+
+.theHLetter,
+.developerDLetter,
+.takeALetter,
+.gardeningNLetter,
+.becauseETwoLetter,
+.wantedDLetter,
+.theirTLetter,
+.skillsKLetter {
+  font-size: var(--fontSize-5);
+  font-weight: var(--weightBold-1);
+  color: var(--color-5);
+  text-decoration: var(--decorationLine-Through);
+  text-transform: var(--textTransCap);
+  font-family: var(--fontFam-5);
+}
+
+/* 6. */
+
+.theELetter,
+.developerELetter,
+.takeKLetter,
+.gardeningILetter,
+.theyTLetter,
+.toTLetter,
+.theirHLetter,
+.skillsILetter {
+  font-size: var(--fontSize-6);
+  font-weight: var(--weightNormal-2);
+  color: var(--color-6);
+  text-decoration: var(--decorationNone);
+  text-transform: var(--textTransLower);
+  font-family: var(--fontFam-6);
+}
+
+/* 7. */
+
+.frontendFLetter,
+.developerVLetter,
+.takeELetter,
+.gardeningNTwoLetter,
+.theyHLetter,
+.toOLetter,
+.theirELetter,
+.skillsLLetter {
+  font-size: var(--fontSize-7);
+  font-weight: var(--weight400-3);
+  color: var(--color-7);
+  text-decoration: var(--decorationOverline);
+  text-transform: var(--textTransNone);
+  font-family: var(--fontFam-1);
+}
+
+/* 8. */
+
+.frontendRLetter,
+.developerETwoLetter,
+.upULetter,
+.gardeningGTwoLetter,
+.theyELetter,
+.improveILetter,
+.theirILetter,
+.skillsLTwoLetter {
+  font-size: var(--fontSize-8);
+  font-weight: var(--weight700-4);
+  color: var(--color-8);
+  text-decoration: var(--decorationNone);
+  text-transform: var(--textTransUpper);
+  font-family: var(--fontFam-2);
+}
+
+/* 9. */
+
+.frontendOLetter,
+.developerLLetter,
+.upPLetter,
+.becauseBLetter,
+.wantedWLetter,
+.improveMLetter,
+.theirRLetter,
+.skillsSTwoLetter {
+  font-size: var(--fontSize-9);
+  font-weight: var(--weightBold-1);
+  color: var(--color-9);
+  text-decoration: var(--decorationNone);
+  text-transform: var(--textTransNone);
+  font-family: var(--fontFam-3);
+}
+
+/* 10. */
+
+.frontendNLetter,
+.developerOLetter,
+.gardeningGLetter,
+.becauseELetter,
+.theyYLetter,
+.improvePLetter,
+.rootRLetter,
+.hyphen {
+  font-size: var(--fontSize-10);
+  font-weight: var(--weightNormal-2);
+  color: var(--color-10);
+  text-decoration: var(--decorationOverline);
+  text-transform: var(--textTransUpper);
+  font-family: var(--fontFam-4);
 }
